@@ -5,7 +5,7 @@ import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Kickball</header>
+      <header className="App-header">KICKBALL LEAGUE</header>
 
       <BrowserRouter>
         <Switch>
