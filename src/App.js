@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import Home from './views/Home';
-import Players from './views/Players';
 import Teams from './views/Teams';
+import Players from './views/Players';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
         <header className="App-header">KICKBALL LEAGUE</header>
 
         <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/teams" component={Teams} />
-          <Route path="/players" component={Players} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/teams" component={Teams} />
+          <Route exact path="/players" component={Players} />
         </Switch>
 
         <NavLink to="/">Home Page</NavLink>
