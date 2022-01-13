@@ -1,6 +1,7 @@
 # BFS6: Kickball
 
-Due: January 3rd, 2022
+- Due: January 3rd
+- Netlify Link -> 
 
 ## Learning Objectives
 
@@ -21,18 +22,18 @@ Due: January 3rd, 2022
   A page that lists all the teams in the league.
 - Team Detail
   A page that shows the details for a single team, such as their name and logo, and players.
-- Players List
+- [x] Players List
   A page that lists all players in the league.
-- Player Detail
+- [x] Player Detail
   A page that shows the details for a single player, such as their name and position.
 
 * Acceptance Criteria
 
-- [] user can view a list of teams
+- [x] user can view a list of teams
 - [] user can select a team from the list and see details about that team, as well as the players on that team
 - [] user can select a player from the team detail view and view more info about them
-- [] user can view a list of all players in the league
-- [] user can select a player from the list and view more info about them
+- [x] user can view a list of all players in the league
+- [x] user can select a player from the list and view more info about them
 - [] Each view has an associated test
 
 ### TO-DO
@@ -51,12 +52,12 @@ Due: January 3rd, 2022
   - [x] PlayerList.js
 
 - [x] set Home Page as landing page
-  - [ ] w/navigation bar rendered on each view
+  - [x] w/navigation bar rendered on each view
 - [x] set up routes
 - [x] set up NavLink
 
 
-- [ ] add loading state
+- [x] add loading state
 
 ### testing
 - render
