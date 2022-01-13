@@ -8,17 +8,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <header className="App-header">KICKBALL LEAGUE</header>
+        <header className="App-header">
+          KICKBALL LEAGUE
+          <NavLink to="/">Home Page</NavLink>
+          <NavLink to="/teams">Teams</NavLink>
+          <NavLink to="/players">Players</NavLink>
+        </header>
 
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/teams" component={Teams} />
           <Route exact path="/players" component={Players} />
         </Switch>
-
-        <NavLink to="/">Home Page</NavLink>
-        <NavLink to="/teams">Teams</NavLink>
-        <NavLink to="/players">Players</NavLink>
       </BrowserRouter>
     </div>
   );
