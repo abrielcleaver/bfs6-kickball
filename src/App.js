@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import Home from './views/Home';
 import Teams from './views/Teams';
+import TeamId from './views/TeamId';
 import Players from './views/Players';
 import PlayerId from './views/PlayerId';
 
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/teams" component={Teams} />
+          <Route exact path="/teams/:id" component={TeamId} />
           <Route exact path="/players" component={Players} />
           <Route exact path="/players/:id" component={PlayerId} />
         </Switch>
