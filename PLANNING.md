@@ -1,7 +1,7 @@
 # BFS6: Kickball
 
 - Due: January 3rd
-- Netlify Link -> 
+- Netlify Deploy Preview Link -> https://deploy-preview-1--abriels-kickball-league.netlify.app/
 
 ## Learning Objectives
 
