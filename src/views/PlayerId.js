@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getPlayerId } from '../services/playerData';
+import { getPlayerById } from '../services/playerData';
 import PlayerDetail from '../components/PlayerDetail';
 
 export default function PlayerId(props) {
@@ -9,7 +9,7 @@ export default function PlayerId(props) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await getPlayerId(id);
+      const data = await getPlayerById(id);
       setPlayer(data[0]);
       setLoading(false);
     };
