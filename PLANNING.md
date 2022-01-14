@@ -38,7 +38,10 @@
 
 ### TO-DO
 
-- [x] Create DEV branch
+- [x] Create dev branch
+- [x] add supabase key/url 
+- [x] Github secrets
+- [x] Netlify variables
 - [x] Create views/ with
   - [x] Home.js
   - [x] Player.js
